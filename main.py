@@ -1,3 +1,3 @@
-import math
-print(math.isqrt(10))  # Works fine in Python 3.8+
-
+import httpx
+r = httpx.get('https://www.example.org/')
+print(r.status_code)
